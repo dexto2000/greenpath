@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
   border: 10px solid black;
-  background-image: url(../images/cobble.jpg);
+  /*background-image: url(../images/cobble.jpg);*/
 }
 #title{
   font-size:100%;
@@ -21,4 +21,11 @@
   top: 80px;
   left: 80px;
   background-color: aqua;
+}
+.square{  
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: #fff;
 }

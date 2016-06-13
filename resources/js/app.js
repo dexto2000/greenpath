@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   $(document).keydown(function(e) {
     switch(e.which) {
@@ -29,4 +30,9 @@ $(document).ready(function(){
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });
+
+  $('.square').click(function(){
+    var posi = $(this).position();
+    alert(posi.top);
+  })
 });
