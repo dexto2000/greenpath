@@ -23,16 +23,9 @@
   border: 1px solid black;
   background-color: #fff;
 }
-#map{
-  position: fixed;
-  text-align: center;
-  width: 75px;
-  height 10px;
-  border: 1px solid black;
-}
-#obstical{
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 10px solid black;
+#attack{
+    background-color: green;
+    width: 3px;
+    height: 10px;
+    position: absolute;
 }
